@@ -1,0 +1,14 @@
+Microservices
+
+SERVER
+
+- Scrapper: nokogiri. Calls URLs and returns agnostic objects.
+- Template interpreter
+- API rest
+
+
+CLIENT (Android)
+- Scheduler
+- Plugins
+- Templates
+- API call

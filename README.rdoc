@@ -6,10 +6,17 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+2.3.0
 
 * System dependencies
+nodejs
+mongodb
+
 
 * Configuration
+bundle install
+rails s
+
 
 * Database creation
 

@@ -19,7 +19,7 @@ class Seed
   end
 
   def generate_data
-    Scrapper.new(:type => ['Image','videos','links','text'])
+    scrappingType = Scrapper.create([{ type: 'Image'}, { type: 'videos'}, { type: 'links'}, { type: 'text'}])
   end
 end
 

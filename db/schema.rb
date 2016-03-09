@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160308231140) do
+ActiveRecord::Schema.define(version: 20160309211016) do
 
   create_table "scrapped_sites", force: :cascade do |t|
     t.string   "name"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20160308231140) do
   end
 
   create_table "scrappers", force: :cascade do |t|
-    t.string   "type"
+    t.string   "category"
     t.text     "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false

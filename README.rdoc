@@ -14,8 +14,10 @@ mongodb
 
 
 * Configuration
-bundle install
-rails s
+
+
+$ bundle install
+$ rails s
 
 
 * Database creation
@@ -23,6 +25,9 @@ rails s
 * Database initialization
 
 * How to run the test suite
+
+To execute all the tests
+$ rake test test_all
 
 * Services (job queues, cache servers, search engines, etc.)
 

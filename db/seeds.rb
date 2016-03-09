@@ -21,7 +21,8 @@ class Seed
   def generate_data
     scrapper = Scrapper.new
     category = ["Imager","videos","links","text"]
-    category.each {|c| scrapper = c}
+    category.each {|c| scrapper.category = c}
+    scrapper.save
   end
 end
 

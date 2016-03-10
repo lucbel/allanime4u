@@ -23,6 +23,15 @@ $ rails s
 * Database creation
 
 * Database initialization
+In a terminal start mongodb
+$ mongod
+
+In a diferent terminal enter in mongodb and create database test
+$ mongo
+> use test
+> db.example.insert({"name","example"})
+> show dbs
+Now will appear the database in the list.
 
 * How to run the test suite
 

@@ -4,7 +4,7 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake/testtask'
 
-Rake::TestTask.new('test_all') do |t|
+Rake::TestTask.new() do |t|
   t.libs << 'test'
   t.test_files = FileList['test/**/*.rb']
   t.verbose = true

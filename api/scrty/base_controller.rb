@@ -1,6 +1,6 @@
 #base_controller.rb
 
 
-class Api::scrty::BaseController < ApplicationController
+class Api::Scrty::BaseController < ApplicationController
   respond_to :json
 end
